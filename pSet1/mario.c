@@ -15,7 +15,7 @@ int main(void)
     for (int line = 0; line < height; line++)
     {
         //set space to height - line and ask is dot greater then 1
-        for (int dot = height - line; dot > 1; dot--)
+        for (int space = height - line; space > 1; space--)
         {
             printf(" ");
         }
